@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(128,0,128,0.8);
+  }
+  .reg-form{
+    margin-bottom: 40px;
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: rgb(0,0,0,0.6);
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    height: 300px;
+  
+  }
+  .reg-form h2{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin-left: 140px;
+  }
+  .reg-form form{
+    margin-top: 30px;
+  }
+  .reg-form form .input-box{
+    height: 52px;
+    margin: 18px 0;
+  }
+  form .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color:black;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  form .check{
+    display: flex;
+    align-items: center;
+  }
+  form h3{
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+
+  form .text h3{
+   color: white;
+   width: 100%;
+   text-align: center;
+  }
+  form .text h3 a{
+    color: #4070f4;
+    text-decoration: none;
+  }
+  form .text h3 a:hover{
+    text-decoration: underline;
+  }
+.btn input{
+    position: absolute;
+    bottom: 0px;
+   border-radius: 40px;
+   height: 40px;
+   width:150px;
+   border-color: transparent;
+   font-weight: bold;
+   color: blue;
+   cursor: pointer;
+   margin-left: 100px;
+  margin-bottom: 25px;
+ }
+ .btn a{
+    text-decoration: none;
+ }
+ .btn input:hover{
+    color: blueviolet;
+    transition: all 0.3s ease;
+}
+
